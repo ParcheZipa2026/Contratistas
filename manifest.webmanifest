@@ -1,0 +1,23 @@
+{
+  "name": "Parche Zipa · Gestión Contractual",
+  "short_name": "Parche Zipa",
+  "description": "Sistema Inteligente de Gestión Contractual del Programa de Juventudes de Zipaquirá.",
+  "id": "/parche-zipa/",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#6C3BFF",
+  "theme_color": "#6C3BFF",
+  "lang": "es-CO",
+  "categories": ["productivity", "government", "business"],
+  "icons": [
+    { "src": "./assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "./assets/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Registrar actividad", "url": "./index.html#/actividades", "description": "Crea una nueva actividad" },
+    { "name": "Dashboard", "url": "./index.html#/dashboard" }
+  ]
+}
